@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "chromedriver": "^74.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha --recursive --timeout 10000 login.js"
+  }
+}
